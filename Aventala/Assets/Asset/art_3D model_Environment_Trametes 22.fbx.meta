@@ -3,7 +3,17 @@ guid: ebc0a8b5db4c6c147a784e57e502ec67
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Jamur Trametes_terminator_BaseColor
+    second: {fileID: 2800000, guid: 51f6042380408bd449fe9644c8c461f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Jamur Trametes_terminator_Normal
+    second: {fileID: 2800000, guid: 79a110d51f93a8245b32617a1a91276c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

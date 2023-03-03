@@ -3,7 +3,37 @@ guid: c9a950c1d588f6b4db7c2b8c844e0341
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rafles
+    second: {fileID: 2100000, guid: 05e0f8154c23773468d38cfc086b6adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pentul
+    second: {fileID: 2100000, guid: b54760c380775d344844dfb06eea0a39, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Raflesia_Rafles_BaseColor
+    second: {fileID: 2800000, guid: 9bf2bda961f99f64a83a955c8d950534, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Raflesia_Rafles_Normal
+    second: {fileID: 2800000, guid: 966b73529393b604483a393677f4da8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Raflesia_pentul_BaseColor
+    second: {fileID: 2800000, guid: 4c73d2e28787f974fb87d676697e7303, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: art_3D model_Environment_Raflesia_pentul_Normal
+    second: {fileID: 2800000, guid: fd2350371f9688b4385632cf84664c1c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

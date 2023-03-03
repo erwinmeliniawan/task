@@ -3,7 +3,22 @@ guid: 46ae01ed81926a64083b8b92b7f1d546
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8bd79b3d8043a284491450df4a2724f3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Base_color
+    second: {fileID: 2800000, guid: 6f22f51209ca5b34ebb6c2eb2d2227db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 220ff467723986f46bfb16917f285c44, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
