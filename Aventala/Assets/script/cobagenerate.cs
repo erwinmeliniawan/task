@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class cobagenerate : MonoBehaviour
 {
-    public GameObject Kruin;
-    public GameObject Kruin2;
+    public GameObject Paku;
+    public GameObject Pohon4;
     public GameObject Akasia;
     public GameObject treeInWorldObject;
-    public int kruinAmount;
+    public int PakuAmount;
     public int akasiaAmount;
-    public int kruin2Amount;
+    public int Pohon4Amount;
 
-    List<GameObject> kruinList = new List<GameObject>();
-    GameObject[] kruinArray;
-    List<GameObject> kruinList2 = new List<GameObject>();
-    GameObject[] kruinArray2;
+    List<GameObject> PakuList = new List<GameObject>();
+    GameObject[] PakuArray;
+    List<GameObject> PakuList2 = new List<GameObject>();
+    GameObject[] PakuArray2;
     List<GameObject> akasiaList = new List<GameObject>();
     GameObject[] akasiaArray;
 
@@ -24,28 +24,28 @@ public class cobagenerate : MonoBehaviour
         
     }
 
-    public void createKruin2()
+    public void createPohon4()
     {
-        for (int i = 0; i <= kruin2Amount; i++)
+        for (int i = 0; i <= Pohon4Amount; i++)
         {
-            kruinList2.Add(Instantiate<GameObject>(Kruin2));
-            kruinArray2 = kruinList2.ToArray();
-            kruinArray2[i].transform.position = new Vector3(Random.Range(-43, 43), 0, Random.Range(-43, 43));
-            kruinArray2[i].transform.parent = treeInWorldObject.transform;
-            Kruin2.transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(-10.0f, 90.0f), Random.Range(0.0f, 360.0f));
-            Kruin2.transform.localScale = new Vector3(Random.Range(30, 60), Random.Range(30, 60), Random.Range(30, 60));
+            PakuList2.Add(Instantiate<GameObject>(Pohon4));
+            PakuArray2 = PakuList2.ToArray();
+            PakuArray2[i].transform.position = new Vector3(Random.Range(-43, 43), 0, Random.Range(-43, 43));
+            PakuArray2[i].transform.parent = treeInWorldObject.transform;
+            Pohon4.transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(-10.0f, 90.0f), Random.Range(0.0f, 360.0f));
+            Pohon4.transform.localScale = new Vector3(Random.Range(30, 60), Random.Range(30, 60), Random.Range(30, 60));
         }
     }
-    public void createKruin()
+    public void createPaku()
     {
-        for (int i = 0; i <= kruinAmount; i++)
+        for (int i = 0; i <= PakuAmount; i++)
         {
-            kruinList.Add(Instantiate<GameObject>(Kruin));
-            kruinArray = kruinList.ToArray();
-            kruinArray[i].transform.position = new Vector3(Random.Range(-43, 43), 0, Random.Range(-43, 43));
-            kruinArray[i].transform.parent = treeInWorldObject.transform;
-            kruinArray[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(-10.0f, 90.0f), Random.Range(0.0f, 360.0f));
-            kruinArray[i].transform.localScale = new Vector3(Random.Range(40, 60), Random.Range(40, 60), Random.Range(40, 60));
+            PakuList.Add(Instantiate<GameObject>(Paku));
+            PakuArray = PakuList.ToArray();
+            PakuArray[i].transform.position = new Vector3(Random.Range(-43, 43), 0, Random.Range(-43, 43));
+            PakuArray[i].transform.parent = treeInWorldObject.transform;
+            PakuArray[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(-10.0f, 90.0f), Random.Range(0.0f, 360.0f));
+            PakuArray[i].transform.localScale = new Vector3(Random.Range(40, 60), Random.Range(40, 60), Random.Range(40, 60));
         }
     }
 
