@@ -69,7 +69,7 @@ public class Generate : MonoBehaviour
         
         createPaku();
         createPaku3();
-        createObstacle();
+       // createObstacle();
         createPohon();
         createPohon2();
         createPohon4();
@@ -87,7 +87,7 @@ public class Generate : MonoBehaviour
         {
             PohonList.Add(Instantiate<GameObject>(Pohon));
             PohonArray = PohonList.ToArray();
-            PohonList[i].transform.position = new Vector3(Random.Range(12, 45), 0, Random.Range(-12, 216));
+            PohonList[i].transform.position = new Vector3(Random.Range(12, 45), 0, Random.Range(-12, 190));
         }
     }
 
@@ -214,7 +214,7 @@ public class Generate : MonoBehaviour
         {
             obstacleList.Add(Instantiate<GameObject>(Obstacle));
             obstacleArray = obstacleList.ToArray();
-            obstacleArray[i].transform.position = new Vector3(Random.Range(-7, 11), 0, Random.Range(68, 150));
+            obstacleArray[i].transform.position = new Vector3(Random.Range(-7, 11),0 , Random.Range(68, 150));
             obstacleArray[i].transform.parent = treeInWorldObject.transform;
             Obstacle.transform.rotation = Quaternion.Euler(Random.Range(0.0f, 0.0f), Random.Range(0.0f, 90.0f), Random.Range(0.0f, 0.0f));
            // Obstacle.transform.localScale = new Vector3(Random.Range(0, 14), Random.Range(0, 14), Random.Range(0, 14));
