@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 770.8
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 50424
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,10 +143,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 770.8
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 50425
+  controlID: 138
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,10 +168,10 @@ MonoBehaviour:
     y: 0
     width: 1153.6
     height: 770.8
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 50426
+  controlID: 67
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,10 +193,10 @@ MonoBehaviour:
     y: 0
     width: 1153.6
     height: 471.2
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 50427
+  controlID: 68
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,8 +216,8 @@ MonoBehaviour:
     y: 0
     width: 373.6
     height: 471.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -298,8 +298,8 @@ MonoBehaviour:
     y: 0
     width: 382.40002
     height: 770.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -426,7 +426,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 76aef9ff72e9faffce3efbff9c61fbffa443fcff5c7bfdff787bfdff3c7cfdff587cfdffe47cfdff8c7dfdffdc7efdffd87ffdff4443ffffc0f9ffff66fbffff864800008a48000090480000e4c100000ac20000
+      m_ExpandedIDs: f6f4ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.30831027, y: 1.0927713, z: 0.39210135}
+    m_Target: {x: 0.30496868, y: 0.94509727, z: 0.37112337}
     speed: 2
-    m_Value: {x: 0.30831027, y: 1.0927713, z: 0.39210135}
+    m_Value: {x: 0.30496868, y: 0.94509727, z: 0.37112337}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -535,13 +535,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.091160744, y: 0.634574, z: 0.075745255, w: 0.7637198}
+    m_Target: {x: -0.06304297, y: 0.08253956, z: 0.0052318433, w: 0.994578}
     speed: 2
-    m_Value: {x: -0.09116075, y: 0.634574, z: 0.07574526, w: 0.7637198}
+    m_Value: {x: -0.063035056, y: 0.08403134, z: 0.0053264024, w: 0.99445313}
   m_Size:
-    m_Target: 2.1206927
+    m_Target: 1.8470892
     speed: 2
-    m_Value: 2.1206927
+    m_Value: 1.9341248
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -629,22 +629,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Asset/UI
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Asset/UI
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\asus\Documents\GitHub\Aventala1\task\Aventala
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 004c0000
-    m_LastClickedID: 19456
-    m_ExpandedIDs: 000000008e4b0000524c0000
+    m_SelectedIDs: 5a510000
+    m_LastClickedID: 20826
+    m_ExpandedIDs: 00000000f8500000fa50000004510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,7 +672,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e4b0000524c0000
+    m_ExpandedIDs: 00000000f8500000fa500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

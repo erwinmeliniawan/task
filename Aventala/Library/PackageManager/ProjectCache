@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638134076522708659
-    m_Hash: 3553868414
+      ticks: 638142799740227812
+    m_Hash: 2791100107
   m_LockFileStatus:
     m_FilePath: C:/Users/asus/Documents/GitHub/Aventala1/task/Aventala/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638134076604812702
-    m_Hash: 787289184
+      ticks: 638142799740227812
+    m_Hash: 2164496236
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
