@@ -76,8 +76,8 @@ public class Generate1 : MonoBehaviour
         createPohon2();
         createPohon4();
         createPohon3();
-        createPohon5();
-        createPohon6();
+       // createPohon5();
+        //createPohon6();
         createHeliconia();
         createHeliconia2(); 
        
@@ -112,7 +112,7 @@ public class Generate1 : MonoBehaviour
             PohonList3.Add(Instantiate<GameObject>(Pohon3));
             PohonArray3 = PohonList3.ToArray();
             PohonList3[i].transform.position = new Vector3(Random.Range(-140, -130), 0, Random.Range(1, 190));
-            PohonArray3[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(0.0f, 90.0f), Random.Range(0.0f, 360.0f));
+           // PohonArray3[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(0.0f, 90.0f), Random.Range(0.0f, 360.0f));
 
         }
 
@@ -164,7 +164,7 @@ public class Generate1 : MonoBehaviour
         {
             heliconiaList.Add(Instantiate<GameObject>(Heliconia));
             heliconiaArray = heliconiaList.ToArray();
-            heliconiaList[i].transform.position = new Vector3(Random.Range(-6, -10), 0, Random.Range(-12, 190));
+            heliconiaList[i].transform.position = new Vector3(Random.Range(-130, -127), 0, Random.Range(1, 190));
            // heliconiaArray[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(0.0f, 90.0f), Random.Range(0.0f, 360.0f));
 
         }
@@ -177,7 +177,7 @@ public class Generate1 : MonoBehaviour
         {
             heliconiaList2.Add(Instantiate<GameObject>(Heliconia2));
             heliconiaArray2 = heliconiaList2.ToArray();
-            heliconiaList2[i].transform.position = new Vector3(Random.Range(12, 14), 0, Random.Range(-12, 190));
+            heliconiaList2[i].transform.position = new Vector3(Random.Range(-103, -100), 0, Random.Range(1, 190));
             // heliconiaArray[i].transform.rotation = Quaternion.Euler(Random.Range(-90f, -90f), Random.Range(0.0f, 90.0f), Random.Range(0.0f, 360.0f));
 
         }
